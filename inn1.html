@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> INNERVE Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="inn2.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+ $(document).ready(function(){
+   $("input").keydown(function(){
+    $("input").css("background-color", "rgba((0,123,255,.1)");
+  });
+  $("input").keyup(function(){
+    $("input").css("background-color", "rgba(0,123,255,0.1)");
+  });
+});
+</script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="hidden" id="top">
+      <div class="side2"></div>
+      <h1>ThankYou</h1>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+      <div class="circle4"></div>
+      <div class="circle5"></div>
+      <div class="side"></div>
+    </div>
+    <main class="animate">
+      <h1 id="heading"> Innerve'20 Registration </h1>
+    <p> Hey there!
+          Welcome to Innerve 2019. We definitely hope you are as excited as we are.
+          Please show the confirmation mail you receive after registering, at the entry gate. Without the mail, you won't be allowed to enter the campus</p>
+  </style>
+    <div id="regform"> Registration Form</div>
+    <div class="container" id="con_style">
+    <form id="in_box" name= "register">
+      <label for="name"><b>Name</b> </label><br>
+      <input type="text" placeholder="Enter your full name" name="name" id="name" required><br>
+      <label for="cname"><b>College Name</b></label><br>
+      <input type="text" placeholder="Enter your college name" name="cname" id="cname" required><br>
+      <label for="email"><b>Email</b></label><br>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+      <label for="phone"><b>Mobile no.</b></label><br>
+      <input type="tel" placeholder="Enter your no." name="phone" id="phone" required><br>
+      <div class="myBtn" onclick="greeting();">Register</div>
+    </div>
+  </form>
+  <div class="footer">
+    <a href="#" ><img src="https://cdn4.iconfinder.com/data/icons/social-icon-4/842/facebook-512.png" width="54px"></a>
+      <a href="#"><img src="https://i.pinimg.com/originals/8b/ed/09/8bed099ffbf95985d5184831b0c05dcc.png" width="51px"></a>
+      <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png"width="40px">
+      </a>
+  </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+  <script src="inn3.js"></script>
+</html>
